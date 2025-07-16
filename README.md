@@ -60,8 +60,8 @@ This generates:
 ```bash
 audreylab-summarypostqc \
   --input gwas_summary.txt \
-  --qqplot figures/qq_custom.png \
-  --manhattan figures/manhattan_custom.png
+  --qqplot name1.png \
+  --manhattan name2.png
 ```
 
 ### 🧬 Annotate Significant SNPs
@@ -85,9 +85,9 @@ This will:
 | Flag             | Description                                                                  |
 |------------------|------------------------------------------------------------------------------|
 | `--input`        | **[Required]** Path to the GWAS summary stats file (.tsv or .csv format)     |
-| `--out`          | Prefix for output plots (e.g. `results/myplot`)                              |
-| `--qqplot`       | Custom path for QQ plot (e.g. `figures/qq.png`)                              |
-| `--manhattan`    | Custom path for Manhattan plot (e.g. `figures/manhattan.png`)                |
+| `--out`          | Prefix for output plots (e.g. `myplot`)                              |
+| `--qqplot`       | Custom path for QQ plot (e.g. `qq.png`)                              |
+| `--manhattan`    | Custom path for Manhattan plot (e.g. `manhattan.png`)                |
 | `--annotate`     | Output file (.csv) to save annotated SNPs                                    |
 | `--pval-threshold` | P-value threshold for selecting SNPs to annotate (default: `5e-2`)         |
 
