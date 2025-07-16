@@ -48,7 +48,7 @@ pip install audreylab-summarypostqc
 ### Basic QQ + Manhattan Plot
 
 ```bash
-audreylab-summarypostqc --input gwas_summary.txt --out results/plots
+audreylab-summarypostqc --input gwas_summary.txt --out plots
 ```
 
 This generates:
@@ -69,7 +69,7 @@ audreylab-summarypostqc \
 ```bash
 audreylab-summarypostqc \
   --input gwas_summary.txt \
-  --annotate annotated_snps.csv \
+  --annotate \
   --pval-threshold 5e-6
 ```
 
