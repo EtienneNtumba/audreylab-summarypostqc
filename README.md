@@ -37,14 +37,14 @@ Install via [PyPI](https://pypi.org/project/audreylab-summarypostqc/):
 
 ```bash
 pip install audreylab-summarypostqc
-
+```
 ## 🚀 Usage
 
 After installation, you can call the tool from the command line using:
 
 ```bash
 audreylab-summarypostqc --input <your_file.txt> --out <prefix>
-
+```
 This generates the following files:
 
 - `<prefix>_qqplot.png`
@@ -54,7 +54,7 @@ This generates the following files:
 
 ```bash
 audreylab-summarypostqc --input results/gwas_summary.txt --out results/plots
-
+```
 ## 📈 Input File Format
 
 Your input file should be a **tab-separated** (`.tsv` or `.txt`) file with the following required columns:
